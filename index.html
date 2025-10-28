@@ -4,84 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
     <style>
-        .card{
-            border:1px solid black;
-            width:300px;
-            margin-left: 30px;
+        .cards{
+            display:grid;
+            grid-template-columns: 40px 40px 40px 40px;
+            grid-template-rows: auto;
+            gap:300px;
         }
-        .card-title{
-        font-size: 20px;
-        font-weight: 500;
-        }
-        .place{
-        color: gray;
-        font-size: 14px;      
+        .cards img{
+            border-radius: 30px;
+            width: 800%;
+            height: auto;
+
         }
     </style>
 </head>
 <body>
-<!--<section>   
-    <div style="display:flex;gap: 20px;">
-      <div style=" padding: 50px;  background-color: rgb(76,0,255);">
-        <h3>PRE-BOOK OFFER</h3>
-        <h4>Flat 15%OFF</h4>
-        <p>Valid from 12pm to 11:30pm <br> today <br> Booking required</p>
-      </div>
-      <br>
-      <div style="padding:50px; border-radius:10px;background-color: rgb(76,0,255);">
-        <h3>INSTANT OFFER</h3>
-        <h4>Flat 10%OFF</h4>
-        <p>on Bill payment <br> today <br></p>
-      </div>
-      <br>
-      <div style="padding: 50px; border-radius: 10px; background-color: rgb(76,0,255);">
-        <h3>SURPRISE</h3>
-        <h4>get a scratch</h4>
-        <p></p>
-      </div>
-      </div>
-</section>--> 
-<section>
-    <div style="display: flex;">
-        <div class="card">
-            <img src="./img1.jpg" width="300px">
-        <div class="card-title">
-            going close to the nature
+    <section>
+        <div class="cards">
+            <img src="./img1.jpg">
+            <img src="./img2.jpg">
+            <img src="./img3.jpg">
+            <img src="./img4.jpg">
+              <div style="width: 350px; height:100px;background-color: red" border-radius="20px"></div>
+              <div style="width:350px; height:300px;background-color: pink"border-radius="20px"></div> 
         </div>
-        <div class="place">
-            pakala beach:Andhra Pradesh
-        </div>
-        </div>
-        <div class="card">
-            <img src="./img2.jpg" width="300px">
-        <div class="card-title">
-            a place to visit
-        </div>
-        <div class="place">
-            America
-        </div>
-        </div>
-        <div class="card">
-            <img src="./img3.jpg" width="300px">
-        <div class="card-title">
-            where we feel like sky touches
-        </div>
-        <div class="place">
-            pondcherry
-        </div>
-        </div>
-        <div class="card">
-            <img src="./img4.jpg" width="300px">
-        <div class="card-title">
-          going close to the nature
-        </div>
-        <div class="place">
-           hyderabad
-        </div>
-        </div>
-     </div>   
-</section>
+    </section>   
 </body>
 </html>
